@@ -46,18 +46,26 @@ iframe {
     border: 0px solid rgba(0, 0, 0, 0);
     display: block;
     margin: auto;
-    margin-top: 79px;
-    height: 474px;
-    width: 269px;
+    margin-top: 79.5px;
+    height: 472px;
+    width: 267px;
+}
+
+section#socialmedia img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.446);
+    box-sizing: border-box;
+
 }
 
 section#socialmedia {
-    
-    position: relative;
-    height: 100vh;
-    width: 100px;
+    text-align: center;
+}
 
-    top:0%;
-    left: 90%;
-    
+img:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.446);
+    transition: 0.3s;
 }
